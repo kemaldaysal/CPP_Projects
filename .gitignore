@@ -1,0 +1,11 @@
+.vscode/
+External_Libraries/
+Courses_Yazilim_Bilimi/
+*.exe
+*.o
+*.obj
+*.log
+*.user
+*.DS_Store
+build/
+cmake-build*/

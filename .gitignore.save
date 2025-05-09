@@ -1,0 +1,10 @@
+External_Libraries/
+.vscode/
+*.exe
+*.o
+*.obj
+*.log
+*.user
+*.DS_Store
+build/
+cmake-build*/
