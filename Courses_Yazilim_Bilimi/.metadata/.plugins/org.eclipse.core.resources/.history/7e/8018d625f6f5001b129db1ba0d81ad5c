@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+class Student
+{
+	public:
+	string name; // özellik
+
+	void tellName() // method // classa method eklemiş olduk.
+	{
+		cout << "Benim adım: " << name << endl;
+	}
+
+};
+
+int main() {
+
+
+	return 0;
+}

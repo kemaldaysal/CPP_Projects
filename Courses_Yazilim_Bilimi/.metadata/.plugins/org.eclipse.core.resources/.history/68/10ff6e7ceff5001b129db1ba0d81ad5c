@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int *ptr == nullptr; // Herhangi bir yeri göstermeyen bir pointer tanımladık.
+
+	ptr = new int;
+
+	return 0;
+}

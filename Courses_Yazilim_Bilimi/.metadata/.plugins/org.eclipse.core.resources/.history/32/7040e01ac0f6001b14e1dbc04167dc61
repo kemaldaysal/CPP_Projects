@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+private:
+	string name;
+
+public:
+
+	void setName(string isim)
+	{
+		name = isim;
+	}
+};
+
+
+int main() {
+
+	Employee employee;
+
+	employee.setName("Kemal Daysal");
+
+
+	return 0;
+}
+
+
+// classı private yaptığımızdan, class içindeki fonksiyon ve bilgilere sadece
+// olduğu yerde erişilebilir, main'de erişilemez.

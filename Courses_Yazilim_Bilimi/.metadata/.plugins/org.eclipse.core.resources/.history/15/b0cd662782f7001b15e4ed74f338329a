@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+public:
+
+	Employee()
+	{
+		cout << "Constructor çağrıldı." << endl;
+	}
+
+
+};
+
+
+int main() {
+
+	Employee *emp = new Employee();
+
+
+	return 0;
+}

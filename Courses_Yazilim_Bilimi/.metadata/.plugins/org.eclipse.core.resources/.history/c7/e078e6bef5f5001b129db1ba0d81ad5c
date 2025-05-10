@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+class Student
+{
+public: // Alta yazılacak tüm metodlar public olacak ve her taraftan erişilebilecek.
+// Her tarafın anlamı, sadece class içinde değil, main fonksiyonu içinde de erişilebilecek.
+	string name;
+
+};
+
+
+int main() {
+
+	Student student1;
+
+	Student student2;
+
+	student1.name = "Kemal Daysal";
+
+	student2.name = "Ayberk";
+
+	cout << "Öğrenci 1 ismi: " << student1.name << endl;
+	cout << "Öğrenci 2 ismi: " << student2.name << endl;
+
+
+	return 0;
+}

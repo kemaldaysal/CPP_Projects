@@ -1,0 +1,74 @@
+// This pointer, her bir class ve objeye ÖZGÜ bir pointerdır.
+
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+private:
+	string name;
+	int salary;
+	int id;
+
+public:
+
+	Employee(string name, int salary)
+	{
+		this->name = name;
+		this->salary = salary;
+		this->id = 0;
+	}
+
+	Employee(string name, int salary, int id) // CONSTRUCTOR adı mutlaka class adıyla aynı olmalıdır.
+	{
+		this->name = name;
+		this->salary = salary;
+		this->id = id;
+	}
+
+	void setSalary(int salary)
+	{
+		if (salary < 0)
+		{
+			cout << "Maaşınız 0'dan küçük olamaz." << endl;
+		}
+
+		else
+		{
+			this->salary = salary;
+		}
+	}
+
+	int getSalary()
+	{
+		return salary;
+	}
+
+	void setName(string name)
+	{
+		this->name = name;
+	}
+
+	string getName()
+	{
+		return name;
+	}
+
+	void showInfos()
+	{
+		cout << "İsim: " << this->name << endl;
+		cout << "Maaş: " << this->salary << endl;
+		cout << "Id: " << this->id << endl;
+	}
+};
+
+
+int main() {
+
+	Employee employee("Kemal Daysal",5000,12);
+
+	employee.showInfos();
+
+	return 0;
+}
+

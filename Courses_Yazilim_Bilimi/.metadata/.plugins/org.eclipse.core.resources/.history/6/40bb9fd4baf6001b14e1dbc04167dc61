@@ -1,0 +1,11 @@
+#include "Employee.h"
+
+void Employee::showInfos()
+{
+	cout << "Id: " << Employee::id << endl;
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+/*
+ * Employee.h
+ *
+ *  Created on: 6 Ağu 2021
+ *      Author: kemal
+ */
+
+#ifndef EMPLOYEE_H_
+#define EMPLOYEE_H_
+
+class Employee
+{
+public:
+
+	string name;
+	int id;
+	int salary;
+
+};
+
+
+
+#endif /* EMPLOYEE_H_ */

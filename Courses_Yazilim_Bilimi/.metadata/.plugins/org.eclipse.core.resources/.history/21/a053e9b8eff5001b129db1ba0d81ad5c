@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int *ptr = nullptr; // Herhangi bir yeri göstermeyen bir pointer tanımladık.
+
+	ptr = new int;
+
+	*ptr = 10;
+
+	delete ptr;
+
+	return 0;
+}

@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+public:
+
+	string name;
+	int id;
+	int salary;
+
+	void showInfos();
+
+};
+
+
+int main() {
+
+	Employee employee;
+
+	employee.id = 12;
+	employee.name = "Kemal Daysal";
+	employee.salary = 5000;
+
+	employee.showInfos();
+
+	return 0;
+}

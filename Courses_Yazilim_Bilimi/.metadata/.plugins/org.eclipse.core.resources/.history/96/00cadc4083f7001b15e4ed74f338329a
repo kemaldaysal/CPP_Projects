@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+public:
+
+	Employee()
+	{
+		cout << "Constructor çağırıldı." << endl;
+	}
+
+	~Employee() // destructor kullanımı
+	{
+		cout << "Destructor çağırıldı." << endl;
+	}
+
+};
+
+
+int main() {
+
+	Employee *emp = new Employee();
+
+	delete emp;
+
+	return 0;
+}
+

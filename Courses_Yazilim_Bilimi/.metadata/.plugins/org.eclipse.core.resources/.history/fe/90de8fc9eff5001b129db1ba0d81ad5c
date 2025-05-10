@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+// https://youtu.be/QEqyyXMgKXE?list=PLIHume2cwmHfmSmNlxXw1j9ZAKzYyiQAq
+
+int main() {
+
+	int *ptr = nullptr; // Herhangi bir yeri göstermeyen bir pointer tanımladık.
+
+	ptr = new int;
+
+	*ptr = 10;
+
+	delete ptr;
+
+	*ptr = 10;
+
+	return 0;
+}

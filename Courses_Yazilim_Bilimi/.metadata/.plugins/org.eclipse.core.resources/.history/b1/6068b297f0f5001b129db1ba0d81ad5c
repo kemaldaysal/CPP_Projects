@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+// https://youtu.be/QEqyyXMgKXE?list=PLIHume2cwmHfmSmNlxXw1j9ZAKzYyiQAq
+
+int main() {
+
+	int *ptr1 = nullptr;
+
+	int *ptr2 = nullptr;
+
+	ptr1 = new int;
+
+	*ptr1 = 10;
+
+	ptr2 = ptr1; // ptr1 ve ptr2 aynı adresi gösteriyor
+
+	delete ptr1; // ptr1 ve ptr2 geçersiz olan yeri gösterir.
+
+	/*
+	int *ptr = nullptr; // Herhangi bir yeri göstermeyen bir pointer tanımladık.
+
+	ptr = new int;
+
+	*ptr = 10;
+
+	delete ptr;
+
+	*ptr = 10;
+
+	cout << *ptr << endl;
+	*/
+
+
+	return 0;
+}

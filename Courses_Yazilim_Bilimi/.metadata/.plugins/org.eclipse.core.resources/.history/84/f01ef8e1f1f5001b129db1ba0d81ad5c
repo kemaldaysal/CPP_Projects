@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void selamla()
+{
+	cout << "Merhaba" << endl;
+}
+
+
+int main() {
+
+	selamla();
+
+	selamla("Mustafa Murat");
+
+
+	return 0;
+}

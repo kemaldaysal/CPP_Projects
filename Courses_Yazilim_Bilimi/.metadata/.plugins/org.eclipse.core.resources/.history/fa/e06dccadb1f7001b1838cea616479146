@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+class Test
+{
+public:
+	int a;
+	Test(int a)
+	{
+		this-> = a;
+	}
+};
+
+int main() {
+
+	const int i = 10;
+
+	i++;
+
+
+	return 0;
+}

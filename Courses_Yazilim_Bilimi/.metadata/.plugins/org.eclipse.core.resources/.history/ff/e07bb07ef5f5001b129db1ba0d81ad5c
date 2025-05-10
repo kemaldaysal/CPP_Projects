@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+class student
+{
+public: // Alta yazılacak tüm metodlar public olacak ve her taraftan erişilebilecek.
+
+	string name;
+
+};
+
+
+int main() {
+
+
+
+
+
+
+	return 0;
+}

@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+private:
+	string name;
+	int salary;
+
+public:
+
+	void setSalary(int maas)
+	{
+		if (maas < 0)
+		{
+			cout << "Maaşınız 0'dan küçük olamaz." << endl;
+		}
+
+		else
+		{
+			salary = maas;
+		}
+	}
+
+	int getSalary()
+	{
+		return salary;
+	}
+
+	void setName(string isim)
+	{
+		name = isim;
+	}
+
+	string getName()
+	{
+		return name;
+	}
+};
+
+
+int main() {
+
+	Employee employee;
+
+
+
+	return 0;
+}
+

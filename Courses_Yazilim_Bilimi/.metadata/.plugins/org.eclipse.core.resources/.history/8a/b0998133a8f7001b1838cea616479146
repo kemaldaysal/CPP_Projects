@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+class Gamer
+{
+public:
+	static int gamers;
+};
+
+
+int main() {
+
+
+	return 0;
+}

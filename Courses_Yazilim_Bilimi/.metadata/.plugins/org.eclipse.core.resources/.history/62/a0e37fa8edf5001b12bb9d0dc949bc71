@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int *ptr;
+
+	int size;
+
+	cout << "Kaç değer saklayacaksınız?: ";
+	cin >> size;
+
+	ptr = new int[size];
+
+	return 0;
+}

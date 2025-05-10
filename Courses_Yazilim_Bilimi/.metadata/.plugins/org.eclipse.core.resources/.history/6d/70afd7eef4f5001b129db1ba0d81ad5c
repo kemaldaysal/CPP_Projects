@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+class student
+{
+public: // Alta yazılacak tüm kodlar public olacak ve her taraftan erişilebilecek.
+
+};
+
+
+int main() {
+
+
+
+
+
+
+	return 0;
+}

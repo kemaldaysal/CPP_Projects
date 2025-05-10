@@ -1,0 +1,38 @@
+// Normalde, bir fonksiyon bittiğinde, fonksiyondaki
+// değişkenler bellekten otomatik olarak silinir.
+// Statik Değişken, program kapatılana kadar bellekte kalır,
+// fonksiyon bitse de silinmez.
+
+
+#include <iostream>
+using namespace std;
+
+void Test()
+{
+	int i = 3;
+	i++;
+	cout << "i'nin değeri: " << i << endl;
+}
+
+void Test2()
+{
+	static int i = 3;
+	i++;
+	cout << "i'nin değeri: " << i << endl;
+}
+
+int main() {
+
+	Test();
+	Test();
+	Test();
+
+	cout << "static int yaptıktan sonra " << endl;
+
+	Test2();
+
+	// cout << i << endl; // Bu kod hata verir ver i'yi göstermez. Çünkü i, yukarıdaki
+	// fonksiyon bittiğinde silindi.
+
+	return 0;
+}

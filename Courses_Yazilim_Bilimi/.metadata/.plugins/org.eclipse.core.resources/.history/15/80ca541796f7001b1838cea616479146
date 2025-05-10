@@ -1,0 +1,21 @@
+// Normalde, bir fonksiyon bittiğinde, fonksiyondaki
+// değişkenler bellekten otomatik olarak silinir.
+
+#include <iostream>
+using namespace std;
+
+void Test()
+{
+	int i = 3;
+	i++;
+	cout << "i'nin değeri: " << i << endl;
+}
+
+int main() {
+
+	Test();
+
+
+
+	return 0;
+}

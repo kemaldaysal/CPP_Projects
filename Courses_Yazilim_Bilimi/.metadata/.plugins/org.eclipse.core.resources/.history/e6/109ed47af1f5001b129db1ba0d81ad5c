@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int array[] = {10,20,30,40,50};
+
+
+	for (int i = 0 ; i < 5 ; i++)
+	{
+		cout << array[i] << endl;
+	}
+
+
+	cout << endl << endl;
+
+	// YERİNE FOREACH KULLANARAK ÇOK KISA BİÇİMDE YAZABİLİRİZ
+
+	for (int item:array)
+	{
+		cout << item << endl;
+	}
+
+	// Herhangi bir işlemi de yapabiliriz.
+
+	for (int item:array)
+	{
+		cout << 2*item << endl;
+	}
+
+
+	return 0;
+}

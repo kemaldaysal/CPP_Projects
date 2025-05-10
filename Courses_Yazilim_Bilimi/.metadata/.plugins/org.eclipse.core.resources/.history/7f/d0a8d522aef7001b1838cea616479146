@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+class Test
+{
+public:
+	void showInfos(Employee employee)
+	{
+	cout << employee.name << " " << employee.age << " " << employee.salary << endl;
+	}
+};
+
+
+class Employee
+{
+private:
+	string name;
+	int age;
+	int salary;
+
+public:
+	Employee(string name, int age, int salary)
+	{
+		this->name = name;
+		this->age = age;
+		this->salary = salary;
+	}
+};
+
+
+
+int main() {
+
+
+
+	return 0;
+}
+
