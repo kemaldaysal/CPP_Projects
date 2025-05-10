@@ -1,0 +1,10 @@
+19:57:56 **** Incremental Build of configuration Debug for project Ders52_Const_Class_Members_and_Methods ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Ders52_Const_Class_Members_and_Methods.o" "..\\src\\Ders52_Const_Class_Members_and_Methods.cpp" 
+..\src\Ders52_Const_Class_Members_and_Methods.cpp: In member function 'int Test::getValue() const':
+..\src\Ders52_Const_Class_Members_and_Methods.cpp:16:27: error: assignment of member 'Test::a' in read-only object
+   16 |                 this -> a = 20;
+      |                 ~~~~~~~~~~^~~~
+
+19:57:57 Build Failed. 1 errors, 0 warnings. (took 716ms)
+
